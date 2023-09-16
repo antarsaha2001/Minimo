@@ -1,0 +1,85 @@
+/* font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol, li{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 88%;
+    height: 165px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    width: 130px;
+    height: 25px;
+}
+header nav{
+    width: 53%;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+header nav li{
+    list-style: none;
+}
+header nav li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14pt;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+}
+.banner{
+    width: 88%;
+    margin: auto;
+}
+.banner img{
+    width: 100%;
+}
+.artical{
+    width: 84.5%;
+    margin: auto;
+
+}
+.banner h3{
+    color: #b4ad9e;
+    font-size: 14pt;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 100px;
+}
+.banner h1{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 30pt;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.banner p{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 14pt;
+    font-weight: 450;
+    margin-top: 30px;
+    margin-bottom: 55px;
+    text-align: justify;
+}
+.banner a{
+    color: #b4ad9e;
+    font-size: 14pt;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
